@@ -25,8 +25,6 @@ WebUI.setText(findTestObject('Object Repository/Test UI Triangle/Page_/input_ C_
 
 WebUI.click(findTestObject('Object Repository/Test UI Triangle/Page_/a_'))
 
-WebUI.click(findTestObject('Object Repository/Test UI Triangle/Page_/div_Not a Triangle'))
-
 WebUI.verifyElementText(findTestObject('Page_/div_Not a Triangle'), 'Not a Triangle')
 
 WebUI.closeBrowser()
