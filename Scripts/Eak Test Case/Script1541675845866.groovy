@@ -29,3 +29,5 @@ WebUI.verifyElementText(findTestObject('Page_/div_Not a Triangle'), 'Not a Trian
 
 WebUI.closeBrowser()
 
+WebUI.acceptAlert()
+
