@@ -13,7 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.acceptAlert()
+WebUI.openBrowser('')
 
-WebUI.acceptAlert()
+WebUI.navigateToUrl('https://web.testing.se.nattaponra.com/')
+
+WebUI.setText(findTestObject('Object Repository/Test UI Triangle/Page_/input_ A_aSide'), '100')
+
+WebUI.setText(findTestObject('Object Repository/Test UI Triangle/Page_/input_ B_bSide'), '100')
+
+WebUI.setText(findTestObject('Object Repository/Test UI Triangle/Page_/input_ C_cSide'), '100')
+
+WebUI.click(findTestObject('Object Repository/Test UI Triangle/Page_/a_'))
+
+WebUI.verifyElementText(findTestObject('Page_/div_Not a Triangle'), 'Not a Triangle')
+
+WebUI.closeBrowser()
 
