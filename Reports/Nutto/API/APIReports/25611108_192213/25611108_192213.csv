@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+APIReports,,,2561-11-08 19:22:15,2561-11-08 19:22:16,1.822s,FAILED
+,,,,,,
+Test Cases/Nutto/API/TestCaseEqualivalent,,,2561-11-08 19:22:15,2561-11-08 19:22:16,1.403s,FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TriangleService, [value_a:1, value_b:1, value_c:1]))",,,2561-11-08 19:22:15,2561-11-08 19:22:16,0.946s,PASSED
+verifyResponseStatusCode,,,2561-11-08 19:22:16,2561-11-08 19:22:16,0.018s,PASSED
+verifyElementPropertyValue,,,2561-11-08 19:22:16,2561-11-08 19:22:16,0.066s,PASSED
+verifyElementPropertyValue,,,2561-11-08 19:22:16,2561-11-08 19:22:16,0.032s,FAILED
