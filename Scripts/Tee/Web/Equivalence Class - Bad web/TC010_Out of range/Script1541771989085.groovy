@@ -13,3 +13,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://bad-web.testing.se.nattaponra.com/')
+
+WebUI.setText(findTestObject('Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'), '0.3')
+
+WebUI.setText(findTestObject('Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'), '200')
+
+WebUI.setText(findTestObject('Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'), '200')
+
+WebUI.click(findTestObject('Object Repository/Test UI Triangle/Page_/a_ (1)'))
+
+WebUI.click(findTestObject('Object Repository/Test UI Triangle/Page_/div_Equilateral'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Test UI Triangle/Page_/div_Equilateral'), 'Out of range')
+
+WebUI.closeBrowser()
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>a = 100
+b = 100
+c = 100</description>
+   <name>TC013_Out of range</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8d247dd5-1bb0-4924-8800-63bbccacd0db</testCaseGuid>
+</TestCaseEntity>

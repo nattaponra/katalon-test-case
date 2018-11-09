@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>a = 100
+b = 100
+c = 100</description>
+   <name>TC005_Not a triangle</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e35a2d8-9f57-4e1d-8d7c-36de0cae724e</testCaseGuid>
+</TestCaseEntity>

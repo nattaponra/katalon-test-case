@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>a = 100
+b = 100
+c = 100</description>
+   <name>TC014_Scelene</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c288c3c0-f539-4276-be1c-cec32a092dcb</testCaseGuid>
+</TestCaseEntity>

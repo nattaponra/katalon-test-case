@@ -15,19 +15,19 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://web.testing.se.nattaponra.com/')
+WebUI.navigateToUrl('https://bad-web.testing.se.nattaponra.com/')
 
-WebUI.setText(findTestObject('Object Repository/Test UI Triangle/Page_/input_ A_aSide'), '200')
+WebUI.setText(findTestObject('Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'), '3')
 
-WebUI.setText(findTestObject('Object Repository/Test UI Triangle/Page_/input_ B_bSide'), '100')
+WebUI.setText(findTestObject('Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'), '4')
 
-WebUI.setText(findTestObject('Object Repository/Test UI Triangle/Page_/input_ C_cSide'), '100')
+WebUI.setText(findTestObject('Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'), '5')
 
-WebUI.click(findTestObject('Object Repository/Test UI Triangle/Page_/a_'))
+WebUI.click(findTestObject('Object Repository/Test UI Triangle/Page_/a_ (1)'))
 
-WebUI.verifyElementText(findTestObject('Page_/div_Not a Triangle'), 'Not a Triangle')
+WebUI.verifyElementText(findTestObject('Object Repository/Test UI Triangle/Page_/div_Equilateral'), 'Scalene')
+
+WebUI.click(findTestObject('Object Repository/Test UI Triangle/Page_/div_Equilateral'))
 
 WebUI.closeBrowser()
-
-WebUI.clickImage(findTestObject(null))
 

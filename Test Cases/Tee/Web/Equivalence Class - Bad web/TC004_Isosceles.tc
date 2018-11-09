@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>a = 100
+b = 100
+c = 100</description>
+   <name>TC004_Isosceles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3067cc92-2741-4dd3-9f9a-0c8220069b5d</testCaseGuid>
+</TestCaseEntity>
