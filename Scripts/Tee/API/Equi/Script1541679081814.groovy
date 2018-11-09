@@ -13,3 +13,5 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+result = WS.sendRequest(findTestObject('Tee/Test API', [('value_a') : 0, ('value_b') : 0, ('value_c') : 0]))
+
