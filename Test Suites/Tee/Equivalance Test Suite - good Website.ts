@@ -4,6 +4,7 @@
    <name>Equivalance Test Suite - good Website</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-11-10T02:02:07</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

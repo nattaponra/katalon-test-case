@@ -1,0 +1,1857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Equivalance Test Suite - good Website" time="82" tests="5" failures="9" errors="0">
+   <testsuite name="Equivalance Test Suite - good Website" tests="5" failures="9" errors="0" time="82" timestamp="2018-11-10 02:02:22" hostname="Tee - 192.168.43.240" id="Test Suites/Tee/Equivalance Test Suite - good Website">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207"/>
+         <property name="logFiles" value="/Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/execution0.log"/>
+         <property name="attachments" value="/Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790149300.png, /Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790149801.png, /Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790154615.png, /Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790155021.png, /Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790159942.png, /Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790160329.png, /Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790165304.png, /Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790165694.png, /Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790175958.png, /Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790176350.png, /Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790195892.png, /Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790196322.png, /Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790200738.png, /Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790201207.png, /Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790210281.png, /Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790210660.png, /Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790220002.png, /Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790220385.png"/>
+         <property name="hostName" value="Tee - 192.168.43.240"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="192.168.43.240"/>
+         <property name="sessionId" value="d073df29fda6ffa9e40a9d68df881f84"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Tee/Web/Equivalence Class - good web/TC010_Out of range" classname="Test Cases/Tee/Web/Equivalence Class - good web/TC010_Out of range" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976308.run(Script1541771976308.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-10 02:02:22 - [TEST_CASE][FAILED] - Test Cases/Tee/Web/Equivalence Class - good web/TC010_Out of range: Test Cases/Tee/Web/Equivalence Class - good web/TC010_Out of range FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976308.run(Script1541771976308.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-10 02:02:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-10 02:02:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-10 02:02:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:02:28 - [MESSAGE][PASSED] - Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:02:28 - [TEST_STEP][PASSED] - setText: Text '0.3' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:02:28 - [MESSAGE][PASSED] - Text '0.3' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:02:28 - [TEST_STEP][PASSED] - setText: Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:02:28 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:02:28 - [TEST_STEP][PASSED] - setText: Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:02:28 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:02:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:02:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:02:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:02:29 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+
+2018-11-10 02:02:29 - [MESSAGE][FAILED] - Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.
+[[ATTACHMENT|/Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790149300.png]]
+
+2018-11-10 02:02:30 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+[[ATTACHMENT|/Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790149801.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-10 02:02:22 - [TEST_CASE][FAILED] - Test Cases/Tee/Web/Equivalence Class - good web/TC010_Out of range: Test Cases/Tee/Web/Equivalence Class - good web/TC010_Out of range FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976308.run(Script1541771976308.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tee/Web/Equivalence Class - good web/TC009_Out of range " classname="Test Cases/Tee/Web/Equivalence Class - good web/TC009_Out of range " status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976305.run(Script1541771976305.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-10 02:02:30 - [TEST_CASE][FAILED] - Test Cases/Tee/Web/Equivalence Class - good web/TC009_Out of range : Test Cases/Tee/Web/Equivalence Class - good web/TC009_Out of range  FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976305.run(Script1541771976305.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-10 02:02:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-10 02:02:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-10 02:02:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-10 02:02:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:02:33 - [MESSAGE][PASSED] - Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:02:33 - [TEST_STEP][PASSED] - setText: Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:02:33 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:02:33 - [TEST_STEP][PASSED] - setText: Text '0.3' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:02:33 - [MESSAGE][PASSED] - Text '0.3' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:02:33 - [TEST_STEP][PASSED] - setText: Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:02:33 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:02:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:02:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:02:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:02:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:02:34 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+
+2018-11-10 02:02:35 - [MESSAGE][FAILED] - Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.
+[[ATTACHMENT|/Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790154615.png]]
+
+2018-11-10 02:02:35 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+[[ATTACHMENT|/Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790155021.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-10 02:02:30 - [TEST_CASE][FAILED] - Test Cases/Tee/Web/Equivalence Class - good web/TC009_Out of range : Test Cases/Tee/Web/Equivalence Class - good web/TC009_Out of range  FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976305.run(Script1541771976305.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tee/Web/Equivalence Class - good web/TC008_Out of range" classname="Test Cases/Tee/Web/Equivalence Class - good web/TC008_Out of range" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976303.run(Script1541771976303.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-10 02:02:35 - [TEST_CASE][FAILED] - Test Cases/Tee/Web/Equivalence Class - good web/TC008_Out of range: Test Cases/Tee/Web/Equivalence Class - good web/TC008_Out of range FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976303.run(Script1541771976303.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-10 02:02:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-10 02:02:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-10 02:02:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-10 02:02:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:02:38 - [MESSAGE][PASSED] - Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:02:38 - [TEST_STEP][PASSED] - setText: Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:02:38 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:02:38 - [TEST_STEP][PASSED] - setText: Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:02:39 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:02:39 - [TEST_STEP][PASSED] - setText: Text '0.3' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:02:39 - [MESSAGE][PASSED] - Text '0.3' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:02:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:02:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:02:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:02:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:02:39 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+
+2018-11-10 02:02:40 - [MESSAGE][FAILED] - Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.
+[[ATTACHMENT|/Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790159942.png]]
+
+2018-11-10 02:02:40 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+[[ATTACHMENT|/Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790160329.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-10 02:02:35 - [TEST_CASE][FAILED] - Test Cases/Tee/Web/Equivalence Class - good web/TC008_Out of range: Test Cases/Tee/Web/Equivalence Class - good web/TC008_Out of range FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976303.run(Script1541771976303.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tee/Web/Equivalence Class - good web/TC011_Out of range" classname="Test Cases/Tee/Web/Equivalence Class - good web/TC011_Out of range" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976300.run(Script1541771976300.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-10 02:02:40 - [TEST_CASE][FAILED] - Test Cases/Tee/Web/Equivalence Class - good web/TC011_Out of range: Test Cases/Tee/Web/Equivalence Class - good web/TC011_Out of range FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976300.run(Script1541771976300.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-10 02:02:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-10 02:02:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-10 02:02:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-10 02:02:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:02:44 - [MESSAGE][PASSED] - Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:02:44 - [TEST_STEP][PASSED] - setText: Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:02:44 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:02:44 - [TEST_STEP][PASSED] - setText: Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:02:44 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:02:44 - [TEST_STEP][PASSED] - setText: Text '201' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:02:44 - [MESSAGE][PASSED] - Text '201' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:02:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:02:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:02:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:02:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:02:45 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+
+2018-11-10 02:02:45 - [MESSAGE][FAILED] - Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.
+[[ATTACHMENT|/Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790165304.png]]
+
+2018-11-10 02:02:46 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+[[ATTACHMENT|/Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790165694.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-10 02:02:40 - [TEST_CASE][FAILED] - Test Cases/Tee/Web/Equivalence Class - good web/TC011_Out of range: Test Cases/Tee/Web/Equivalence Class - good web/TC011_Out of range FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976300.run(Script1541771976300.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tee/Web/Equivalence Class - good web/TC001_Equilateral" classname="Test Cases/Tee/Web/Equivalence Class - good web/TC001_Equilateral" status="PASSED">
+         <system-out><![CDATA[2018-11-10 02:02:46 - [TEST_CASE][PASSED] - Test Cases/Tee/Web/Equivalence Class - good web/TC001_Equilateral: Test Cases/Tee/Web/Equivalence Class - good web/TC001_Equilateral
+
+2018-11-10 02:02:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-10 02:02:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-10 02:02:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-10 02:02:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:02:49 - [MESSAGE][PASSED] - Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:02:49 - [TEST_STEP][PASSED] - setText: Text '100' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:02:49 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:02:49 - [TEST_STEP][PASSED] - setText: Text '100' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:02:49 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:02:49 - [TEST_STEP][PASSED] - setText: Text '100' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:02:49 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:02:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:02:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:02:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:02:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:02:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are matched.
+
+2018-11-10 02:02:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are matched.
+
+2018-11-10 02:02:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-10 02:02:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tee/Web/Equivalence Class - good web/TC002_Isosceles" classname="Test Cases/Tee/Web/Equivalence Class - good web/TC002_Isosceles" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Not a Triangle' and expected text 'Isosceles' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976295.run(Script1541771976295.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-10 02:02:50 - [TEST_CASE][FAILED] - Test Cases/Tee/Web/Equivalence Class - good web/TC002_Isosceles: Test Cases/Tee/Web/Equivalence Class - good web/TC002_Isosceles FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Not a Triangle' and expected text 'Isosceles' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976295.run(Script1541771976295.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-10 02:02:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-10 02:02:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-10 02:02:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:02:54 - [MESSAGE][PASSED] - Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:02:54 - [TEST_STEP][PASSED] - setText: Text '100' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:02:55 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:02:55 - [TEST_STEP][PASSED] - setText: Text '100' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:02:55 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:02:55 - [TEST_STEP][PASSED] - setText: Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:02:55 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:02:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:02:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:02:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:02:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:02:55 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Not a Triangle' and expected text 'Isosceles' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+
+2018-11-10 02:02:56 - [MESSAGE][FAILED] - Actual text 'Not a Triangle' and expected text 'Isosceles' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.
+[[ATTACHMENT|/Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790175958.png]]
+
+2018-11-10 02:02:56 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Not a Triangle' and expected text 'Isosceles' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+[[ATTACHMENT|/Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790176350.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-10 02:02:50 - [TEST_CASE][FAILED] - Test Cases/Tee/Web/Equivalence Class - good web/TC002_Isosceles: Test Cases/Tee/Web/Equivalence Class - good web/TC002_Isosceles FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Not a Triangle' and expected text 'Isosceles' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976295.run(Script1541771976295.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tee/Web/Equivalence Class - good web/TC013_Out of range" classname="Test Cases/Tee/Web/Equivalence Class - good web/TC013_Out of range" status="PASSED">
+         <system-out><![CDATA[2018-11-10 02:02:56 - [TEST_CASE][PASSED] - Test Cases/Tee/Web/Equivalence Class - good web/TC013_Out of range: Test Cases/Tee/Web/Equivalence Class - good web/TC013_Out of range
+
+2018-11-10 02:02:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-10 02:02:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-10 02:02:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-10 02:02:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:02:59 - [MESSAGE][PASSED] - Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:02:59 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:03:00 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:03:00 - [TEST_STEP][PASSED] - setText: Text '4' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:03:00 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:03:00 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:03:00 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:03:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:03:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:03:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are matched.
+
+2018-11-10 02:03:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are matched.
+
+2018-11-10 02:03:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:03:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:03:01 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-10 02:03:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tee/Web/Equivalence Class - good web/TC004_Isosceles" classname="Test Cases/Tee/Web/Equivalence Class - good web/TC004_Isosceles" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Not a Triangle' and expected text 'Isosceles' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976290.run(Script1541771976290.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-10 02:03:01 - [TEST_CASE][FAILED] - Test Cases/Tee/Web/Equivalence Class - good web/TC004_Isosceles: Test Cases/Tee/Web/Equivalence Class - good web/TC004_Isosceles FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Not a Triangle' and expected text 'Isosceles' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976290.run(Script1541771976290.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-10 02:03:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-10 02:03:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-10 02:03:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:03:04 - [MESSAGE][PASSED] - Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:03:04 - [TEST_STEP][PASSED] - setText: Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:03:04 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:03:04 - [TEST_STEP][PASSED] - setText: Text '100' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:03:04 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:03:04 - [TEST_STEP][PASSED] - setText: Text '100' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:03:05 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:03:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:03:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:03:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:03:15 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Not a Triangle' and expected text 'Isosceles' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+
+2018-11-10 02:03:16 - [MESSAGE][FAILED] - Actual text 'Not a Triangle' and expected text 'Isosceles' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.
+[[ATTACHMENT|/Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790195892.png]]
+
+2018-11-10 02:03:16 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Not a Triangle' and expected text 'Isosceles' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+[[ATTACHMENT|/Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790196322.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-10 02:03:01 - [TEST_CASE][FAILED] - Test Cases/Tee/Web/Equivalence Class - good web/TC004_Isosceles: Test Cases/Tee/Web/Equivalence Class - good web/TC004_Isosceles FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Not a Triangle' and expected text 'Isosceles' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976290.run(Script1541771976290.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tee/Web/Equivalence Class - good web/TC003_Isosceles" classname="Test Cases/Tee/Web/Equivalence Class - good web/TC003_Isosceles" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Not a Triangle' and expected text 'Isosceles' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976288.run(Script1541771976288.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-10 02:03:16 - [TEST_CASE][FAILED] - Test Cases/Tee/Web/Equivalence Class - good web/TC003_Isosceles: Test Cases/Tee/Web/Equivalence Class - good web/TC003_Isosceles FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Not a Triangle' and expected text 'Isosceles' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976288.run(Script1541771976288.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-10 02:03:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-10 02:03:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-10 02:03:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-10 02:03:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:03:19 - [MESSAGE][PASSED] - Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:03:19 - [TEST_STEP][PASSED] - setText: Text '100' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:03:19 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:03:19 - [TEST_STEP][PASSED] - setText: Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:03:19 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:03:19 - [TEST_STEP][PASSED] - setText: Text '100' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:03:20 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:03:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:03:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:03:20 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Not a Triangle' and expected text 'Isosceles' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+
+2018-11-10 02:03:21 - [MESSAGE][FAILED] - Actual text 'Not a Triangle' and expected text 'Isosceles' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.
+[[ATTACHMENT|/Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790200738.png]]
+
+2018-11-10 02:03:21 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Not a Triangle' and expected text 'Isosceles' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+[[ATTACHMENT|/Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790201207.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-10 02:03:16 - [TEST_CASE][FAILED] - Test Cases/Tee/Web/Equivalence Class - good web/TC003_Isosceles: Test Cases/Tee/Web/Equivalence Class - good web/TC003_Isosceles FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Not a Triangle' and expected text 'Isosceles' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976288.run(Script1541771976288.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tee/Web/Equivalence Class - good web/TC005_Not a triangle" classname="Test Cases/Tee/Web/Equivalence Class - good web/TC005_Not a triangle" status="PASSED">
+         <system-out><![CDATA[2018-11-10 02:03:21 - [TEST_CASE][PASSED] - Test Cases/Tee/Web/Equivalence Class - good web/TC005_Not a triangle: Test Cases/Tee/Web/Equivalence Class - good web/TC005_Not a triangle
+
+2018-11-10 02:03:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-10 02:03:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-10 02:03:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-10 02:03:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:03:24 - [MESSAGE][PASSED] - Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:03:24 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:03:25 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:03:25 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:03:25 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:03:25 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:03:25 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:03:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:03:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:03:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are matched.
+
+2018-11-10 02:03:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are matched.
+
+2018-11-10 02:03:26 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-10 02:03:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tee/Web/Equivalence Class - good web/TC012_Out of range" classname="Test Cases/Tee/Web/Equivalence Class - good web/TC012_Out of range" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976285.run(Script1541771976285.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-10 02:03:26 - [TEST_CASE][FAILED] - Test Cases/Tee/Web/Equivalence Class - good web/TC012_Out of range: Test Cases/Tee/Web/Equivalence Class - good web/TC012_Out of range FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976285.run(Script1541771976285.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-10 02:03:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-10 02:03:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-10 02:03:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:03:29 - [MESSAGE][PASSED] - Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:03:29 - [TEST_STEP][PASSED] - setText: Text '201' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:03:29 - [MESSAGE][PASSED] - Text '201' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:03:29 - [TEST_STEP][PASSED] - setText: Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:03:29 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:03:29 - [TEST_STEP][PASSED] - setText: Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:03:29 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:03:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:03:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:03:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:03:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:03:30 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+
+2018-11-10 02:03:30 - [MESSAGE][FAILED] - Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.
+[[ATTACHMENT|/Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790210281.png]]
+
+2018-11-10 02:03:30 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+[[ATTACHMENT|/Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790210660.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-10 02:03:26 - [TEST_CASE][FAILED] - Test Cases/Tee/Web/Equivalence Class - good web/TC012_Out of range: Test Cases/Tee/Web/Equivalence Class - good web/TC012_Out of range FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976285.run(Script1541771976285.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tee/Web/Equivalence Class - good web/TC006_Not a triangle" classname="Test Cases/Tee/Web/Equivalence Class - good web/TC006_Not a triangle" status="PASSED">
+         <system-out><![CDATA[2018-11-10 02:03:30 - [TEST_CASE][PASSED] - Test Cases/Tee/Web/Equivalence Class - good web/TC006_Not a triangle: Test Cases/Tee/Web/Equivalence Class - good web/TC006_Not a triangle
+
+2018-11-10 02:03:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-10 02:03:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-10 02:03:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-10 02:03:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:03:34 - [MESSAGE][PASSED] - Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:03:34 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:03:34 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:03:34 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:03:34 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:03:34 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:03:34 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:03:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:03:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:03:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are matched.
+
+2018-11-10 02:03:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are matched.
+
+2018-11-10 02:03:35 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-10 02:03:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tee/Web/Equivalence Class - good web/TC014_Scelene" classname="Test Cases/Tee/Web/Equivalence Class - good web/TC014_Scelene" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976281.run(Script1541771976281.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-10 02:03:35 - [TEST_CASE][FAILED] - Test Cases/Tee/Web/Equivalence Class - good web/TC014_Scelene: Test Cases/Tee/Web/Equivalence Class - good web/TC014_Scelene FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976281.run(Script1541771976281.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-10 02:03:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-10 02:03:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-10 02:03:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:03:38 - [MESSAGE][PASSED] - Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:03:38 - [TEST_STEP][PASSED] - setText: Text '201' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:03:39 - [MESSAGE][PASSED] - Text '201' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:03:39 - [TEST_STEP][PASSED] - setText: Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:03:39 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:03:39 - [TEST_STEP][PASSED] - setText: Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:03:39 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:03:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:03:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:03:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:03:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:03:39 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+
+2018-11-10 02:03:40 - [MESSAGE][FAILED] - Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.
+[[ATTACHMENT|/Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790220002.png]]
+
+2018-11-10 02:03:40 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+[[ATTACHMENT|/Users/tee/git/katalon-test-case/Reports/Tee/Equivalance Test Suite - good Website/20181110_020207/1541790220385.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-10 02:03:35 - [TEST_CASE][FAILED] - Test Cases/Tee/Web/Equivalence Class - good web/TC014_Scelene: Test Cases/Tee/Web/Equivalence Class - good web/TC014_Scelene FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976281.run(Script1541771976281.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tee/Web/Equivalence Class - good web/TC007_Not a triangle" classname="Test Cases/Tee/Web/Equivalence Class - good web/TC007_Not a triangle" status="PASSED">
+         <system-out><![CDATA[2018-11-10 02:03:40 - [TEST_CASE][PASSED] - Test Cases/Tee/Web/Equivalence Class - good web/TC007_Not a triangle: Test Cases/Tee/Web/Equivalence Class - good web/TC007_Not a triangle
+
+2018-11-10 02:03:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-10 02:03:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-10 02:03:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-10 02:03:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:03:44 - [MESSAGE][PASSED] - Navigate to 'https://good-web.testing.se.nattaponra.com/' successfully
+
+2018-11-10 02:03:44 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:03:44 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Test UI Triangle/Page_/input_ A_aSide (1)'
+
+2018-11-10 02:03:44 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:03:44 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Test UI Triangle/Page_/input_ B_bSide (1)'
+
+2018-11-10 02:03:44 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:03:44 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Test UI Triangle/Page_/input_ C_cSide (1)'
+
+2018-11-10 02:03:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/a_ (1)' is clicked on
+
+2018-11-10 02:03:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:03:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Test UI Triangle/Page_/div_Equilateral' is clicked on
+
+2018-11-10 02:03:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are matched.
+
+2018-11-10 02:03:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are matched.
+
+2018-11-10 02:03:45 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-10 02:03:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-10 02:02:22 - [TEST_SUITE][FAILED] - Equivalance Test Suite - good Website: Test Cases/Tee/Web/Equivalence Class - good web/TC010_Out of range FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976308.run(Script1541771976308.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-10 02:02:22 - [TEST_SUITE][FAILED] - Equivalance Test Suite - good Website: Test Cases/Tee/Web/Equivalence Class - good web/TC010_Out of range FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' FAILED. (Root cause: Actual text 'Isosceles' and expected text 'Out of range' of test object 'Object Repository/Test UI Triangle/Page_/div_Equilateral' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541771976308.run(Script1541771976308.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541790139148.run(TempTestSuite1541790139148.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>
