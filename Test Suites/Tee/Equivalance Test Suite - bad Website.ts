@@ -87,7 +87,7 @@
       <guid>7b8f914d-f6dd-4d08-b1d3-c8b99bd539c7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Tee/Web/Equivalence Class - Bad web/TC009_Out of range </testCaseId>
+      <testCaseId>Test Cases/Tee/Web/Equivalence Class - Bad web/TC00009_Out of range </testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1a8ae8c4-9f09-4910-849f-621b73952d8f</guid>
